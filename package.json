@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_code_coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ghostInTheShell.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikchandrashekar88/nodejs_code_coverage.git"
+  },
+  "dependencies" : {
+    "mocha": "*",
+    "chai": "*",
+    "istanbul": "*"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikchandrashekar88/nodejs_code_coverage/issues"
+  },
+  "homepage": "https://github.com/karthikchandrashekar88/nodejs_code_coverage#readme"
+}
