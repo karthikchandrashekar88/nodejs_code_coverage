@@ -4,16 +4,16 @@
   "description": "",
   "main": "ghostInTheShell.js",
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha > coverage.txt"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/karthikchandrashekar88/nodejs_code_coverage.git"
   },
-  "dependencies" : {
-    "mocha": "*",
+  "dependencies": {
     "chai": "*",
-    "istanbul": "*"
+    "istanbul": "^0.4.2",
+    "mocha": "*"
   },
   "author": "",
   "license": "ISC",
